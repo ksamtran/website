@@ -1412,11 +1412,11 @@
 }
 
 .uci-slider-arrow-1-left:before {
-	content: "\e92a"
+	content: "\2329"
 }
 
 .uci-slider-arrow-1-right:before {
-	content: "\e92b"
+	content: "\232A"
 }
 
 .uci-logomaker:before {
@@ -1577,7 +1577,7 @@
 }
 
 .uci-close:before {
-	content: "\e608"
+	content: "\01F7A8"
 }
 
 .uci-plus:before {
