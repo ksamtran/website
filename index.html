@@ -18,18 +18,20 @@
     <script src="./js/head.js"></script>
     <link rel="stylesheet" href="./css/stylesheet.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://embed.selly.io"></script>
 </head>
 
 <body>
-
+    <div data-aos="fade-right">
     <div class="logo"><img src="./assets/logo-noodlesdoodles.png" width="400px" height="400px"></div>
     <h1 class="headers title">Hi, I like noodles and I like to doodle!</h1>
+    </div>
 
-    <h1 class="headers emotes">EMOTES</h1>
+    <h1 data-aos="fade-up" class="headers emotes">EMOTES</h1>
 
-    <div style="text-align: center; margin-bottom: 230px;">
+    <div data-aos="fade-left" style="text-align: center; margin-bottom: 230px;">
         <figure>
             <img src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="300" height="300">
             <figcaption>
@@ -44,9 +46,9 @@
         </figure>
     </div>
 
-    <h1 class="headers logos">LOGOS</h1>
+    <h1 data-aos="zoom-in" class="headers logos">LOGOS</h1>
 
-    <div style="text-align: center; margin-bottom: 400px;">
+    <div data-aos="zoom-in-up" style="text-align: center; margin-bottom: 400px;">
         <figure>
             <img src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="200" height="200">
             <figcaption>
@@ -67,9 +69,9 @@
         </figure>
     </div>
 
-    <h1 class="headers illustrations">ILLUSTRATIONS</h1>
+    <h1 data-aos="flip-up" class="headers illustrations">ILLUSTRATIONS</h1>
 
-    <div style="text-align: center; margin-bottom: 230px;">
+    <div data-aos="flip-right" style="text-align: center; margin-bottom: 230px;">
         <figure>
             <img src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="125" height="125">
             <figcaption>
@@ -97,6 +99,10 @@
     </div>
 
     <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
