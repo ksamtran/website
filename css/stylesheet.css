@@ -110,7 +110,7 @@ figure figcaption {
 .buy-button3:hover {
     background-color: #555555;
     color: white;
-  }
+}
 
 .center {
     position: absolute;
@@ -130,3 +130,5 @@ a:hover { text-decoration: none; }
 a:focus { text-decoration: none; }
 a:hover, a:active { text-decoration: none; }
 a { color:rgb(255, 255, 255) }
+
+
