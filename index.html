@@ -32,13 +32,13 @@
 
     <div data-aos="fade-left" style="text-align: center; margin-bottom: 230px;">
         <figure>
-            <img src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="300" height="300">
+            <img id="myImg" src="assets/example.png" alt="missing" style="margin-bottom: 30px; width:100%; max-width:300px" width="300" height="300" class="hover-shadow">
             <figcaption>
                 <button data-shoppy-product="RMbTHzF" class="buy-button button">Click here to purchase</button>
             </figcaption>
         </figure>
         <figure>
-            <img src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="300" height="300">
+            <img id="myImg2" src="assets/example.png" alt="missing" style="margin-bottom: 30px; width:100%; max-width:300px" width="300" height="300" class="hover-shadow">
             <figcaption>
                 <button data-shoppy-product="RMbTHzF" class="buy-button button">Click here to purchase</button>
             </figcaption>
@@ -50,21 +50,21 @@
     <div data-aos="zoom-in-up" style="text-align: center; margin-bottom: 400px;">
 
         <figure>
-            <img src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="200" height="200" class="hover-shadow">
+            <img id="myImg3" src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="200" height="200" class="hover-shadow">
             <figcaption>
                 <button data-shoppy-product="RMbTHzF" class="buy-button2 button">Click here to purchase</button>
             </figcaption>
         </figure>
 
             <figure>
-                <img src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="200" height="200" class="hover-shadow">
+                <img id="myImg4" src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="200" height="200" class="hover-shadow">
                 <figcaption>
                     <button data-shoppy-product="RMbTHzF" class="buy-button2 button">Click here to purchase</button>
                 </figcaption>
             </figure>
 
             <figure>
-                <img src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="200" height="200" class="hover-shadow">
+                <img id="myImg5" src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="200" height="200" class="hover-shadow">
                 <figcaption>
                     <button data-shoppy-product="RMbTHzF" class="buy-button2 button">Click here to purchase</button>
                 </figcaption>
@@ -76,32 +76,50 @@
 
     <div data-aos="flip-right" style="text-align: center; margin-bottom: 230px;">
         <figure>
-            <img src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="125" height="125">
+            <img id="myImg6" src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="125" height="125" class="hover-shadow">
             <figcaption>
                 <button data-shoppy-product="RMbTHzF" class="buy-button3 button">Click here to purchase</button>
             </figcaption>
         </figure>
         <figure>
-            <img src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="125" height="125">
+            <img id="myImg7" src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="125" height="125" class="hover-shadow">
             <figcaption>
                 <button data-shoppy-product="RMbTHzF" class="buy-button3 button">Click here to purchase</button>
             </figcaption>
         </figure>
         <figure>
-            <img src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="125" height="125">
+            <img id="myImg8" src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="125" height="125" class="hover-shadow">
             <figcaption>
                 <button data-shoppy-product="RMbTHzF" class="buy-button3 button">Click here to purchase</button>
             </figcaption>
         </figure>
         <figure>
-            <img src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="125" height="125">
+            <img id="myImg9" src="assets/example.png" alt="missing" style="margin-bottom: 30px;" width="125" height="125" class="hover-shadow">
             <figcaption>
                 <button data-shoppy-product="RMbTHzF" class="buy-button3 button">Click here to purchase</button>
             </figcaption>
         </figure>
     </div>
 
-    <script src="./js/main.js"></script>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+        </div>
+
+    <script src="./js/myimg.js"></script>
+    <script src="./js/myimg2.js"></script>
+    <script src="./js/myimg3.js"></script>
+    <script src="./js/myimg4.js"></script>
+    <script src="./js/myimg5.js"></script>
+    <script src="./js/myimg6.js"></script>
+    <script src="./js/myimg7.js"></script>
+    <script src="./js/myimg8.js"></script>
+    <script src="./js/myimg9.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
